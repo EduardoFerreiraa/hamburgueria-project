@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.85)), url("../img/cheeseburguer.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.header-container {
+    background-color: rgba(0, 0, 0, 0.555);
+    padding: 35px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.logo a {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: orange;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.nav-links ul {
+    gap: 10px;
+    display: flex;
+}
+
+.nav-item {
+    padding: 10px 20px;
+}
+
+.nav-item a {
+    padding: 10px;
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease;
+}
+
+.nav-item a:hover {
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+
+.nav-destaque {
+    list-style: none;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+.nav-destaque a:hover {
+    color: black;
+}
