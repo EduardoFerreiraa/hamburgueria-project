@@ -1,3 +1,40 @@
-@media (width: 350px) and (width: 400px) {
-    
+@media (max-width: 600px){
+    body {
+        background: linear-gradient(rgba(0, 0 ,0 ,0.85)), url("../img/burguer-fund.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .logo a {
+        font-size: 1.5rem;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .nav-item {
+        padding: 0px;
+    }
+
+    .nav-item a {
+        font-size: 0.6rem;
+        padding: 5px;
+    }
+
+    .nav-destaque {
+        background-color: rgba(255, 166, 0, 0);
+    }
+
+    .nav-destaque a:hover {
+        color: orange;
+        border-bottom: 1px solid orange;
+    }
 }
