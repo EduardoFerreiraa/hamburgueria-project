@@ -9,13 +9,14 @@
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.85)), url("../img/cheeseburguer.jpg") no-repeat;
     background-size: cover;
+    background-position: fixed;
     height: 100vh;
     font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 .header-container {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(0, 0, 0, 0.795);
     padding: 35px;
     justify-content: space-around;
     align-items: center;
@@ -64,5 +65,88 @@ body {
 }
 
 .nav-destaque a:hover {
+    color: black;
+}
+
+/* MAIN */
+
+.main-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.content {
+    width: 90%;
+    margin-top: 80px;
+}
+
+.melhor-lanche h1 {
+    width: 80%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    color: orange;
+}
+
+.melhor-lanche p {
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.horarios {
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 25px;
+    border: 1px solid #2e2e2e93;
+    text-align: center;
+    display: flex;
+}
+
+.horarios p {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.cheese {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+
+.cheese img {
+    filter: brightness(90%);
+    width: 35%;
+}
+
+.action-cardapio {
+    width: 100%;
+    text-align: center;
+}
+
+.action-cardapio a {
+    margin: 20px 20px 0 20px;
+    padding: 15px 90px;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.action-cardapio a:hover {
+    background-color: white;
     color: black;
 }
