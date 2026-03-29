@@ -16,7 +16,7 @@ body {
 
 .header-container {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(0, 0, 0, 0.795);
     padding: 35px;
     justify-content: space-around;
     align-items: center;
@@ -75,19 +75,21 @@ body {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    margin-top: 90px;
+    margin-top: 70px;
 }
 
 .content {
-    width: 80%;
+    width: 90%;
     margin-top: 80px;
 }
 
 .melhor-lanche h1 {
+    width: 80%;
+    margin: 0 auto;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: orange;
 }
 
@@ -100,6 +102,8 @@ body {
 }
 
 .horarios {
+    margin: 0 auto;
+    width: 80%;
     border-radius: 5px;
     margin-top: 20px;
     padding: 25px;
@@ -116,13 +120,33 @@ body {
     text-align: center;
 }
 
+.cheese {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+
 .cheese img {
     filter: brightness(90%);
-    width: 500px;
-    margin: 0 auto;
+    width: 35%;
+}
+
+.action-cardapio {
+    width: 100%;
+    text-align: center;
 }
 
 .action-cardapio a {
-    margin: 0 auto;
-    color: orange;
+    margin: 20px 20px 0 20px;
+    padding: 15px 90px;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.action-cardapio a:hover {
+    background-color: white;
+    color: black;
 }
