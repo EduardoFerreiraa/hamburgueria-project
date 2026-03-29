@@ -37,4 +37,37 @@
         color: orange;
         border-bottom: 1px solid orange;
     }
+
+    .melhor-lanche h1 {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 1.1rem;
+        color: orange;
+    }
+
+    .melhor-lanche p {
+        font-size: 1.3rem;
+    }
+
+    .horarios {
+        padding: 10px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .horarios p {
+        margin: 15px;
+        font-size: 0.5rem;
+    }
+
+    .cheese {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+    }
+
+    .cheese img {
+        filter: brightness(90%);
+        width: 35%;
+    }
 }
