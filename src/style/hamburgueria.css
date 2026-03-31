@@ -81,7 +81,7 @@ body {
 
 .content {
     width: 90%;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 .melhor-lanche h1 {
@@ -146,10 +146,12 @@ body {
     color: black;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease, background-color 0.3s ease;
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px rgba(255, 166, 0, 0.61);
 }
 
 .action-cardapio a:hover {
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.61);
     background-color: white;
     color: black;
 }
@@ -279,6 +281,77 @@ body {
     box-shadow: 1px 1px 10px black;
     background-color: black;
     color: white;
+}
+
+/* SECTION 3 */
+
+.content-unidades {
+    padding: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.897)), url("../img/juicy-cheeseburger-fund.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.titulo-unidade {
+    font-size: 2rem;
+    text-align: center;
+    color: orange;
+}
+
+.unidade {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 100px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.item-unidade {
+    box-shadow: 1px 1px 10px rgba(255, 166, 0, 0.603);
+    border-radius: 15px;
+    border: 1px solid orange;
+    padding: 20px;
+    color: white;
+    transition: 0.3s;
+}
+
+.item-unidade:hover {
+    transform: scale(1.05);
+    color: white;
+    background-color: black;
+}
+
+.item-unidade h3 {
+    color: orange;
+    padding: 20px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.item-unidade div {
+    padding: 20px 0 20px 0;
+}
+
+.action-unidade {
+    box-shadow: 1px 1px 10px rgba(255, 166, 0, 0.527);
+    border-radius: 10px;
+    background-color: orange;
+    padding: 12px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+
+.action-unidade:hover {
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.548);
+    background-color: white;
+    color: black;
 }
 
 
