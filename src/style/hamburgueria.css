@@ -210,10 +210,11 @@ body {
     color: orange;
     background-color: white;
     text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: 0.4s;
 }
 
 .nossa-rede:hover {
+    transform: scale(1.06);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
     color: orange;
     background-color: black;
@@ -258,7 +259,11 @@ body {
     margin-bottom: 40px;
 }
 
-.content-pedido a {
+.pedir-whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
     border-radius: 10px;
     padding: 18px 80px;
     background-color: orange;
@@ -269,10 +274,13 @@ body {
     box-shadow: 1px 1px 10px rgba(255, 166, 0, 0.705);
 }
 
-.content-pedido a:hover {
+.pedir-whatsapp:hover {
+    transform: scale(1.06);
     box-shadow: 1px 1px 10px black;
     background-color: black;
     color: white;
 }
+
+
 
 
