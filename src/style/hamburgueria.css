@@ -7,7 +7,7 @@
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.85)), url("../img/cheeseburguer.jpg") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.897)), url("../img/cheeseburguer.jpg") no-repeat;
     background-size: cover;
     background-position: fixed;
     height: 100vh;
@@ -68,10 +68,11 @@ body {
     color: black;
 }
 
-/* MAIN */
+/* ========== SECTION 1 ========== */
 
 .main-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
@@ -127,6 +128,7 @@ body {
 }
 
 .cheese img {
+    z-index: -100;
     filter: brightness(90%);
     width: 35%;
 }
@@ -137,6 +139,7 @@ body {
 }
 
 .action-cardapio a {
+    border-radius: 5px;
     margin: 20px 20px 0 20px;
     padding: 15px 90px;
     background-color: orange;
@@ -150,3 +153,122 @@ body {
     background-color: white;
     color: black;
 }
+
+/* ========== SECTION 2 ========== */
+
+.quem-somos {
+    border-top-left-radius: 10% 10%;
+    border-top-right-radius: 10% 10%;
+    width: 100%;
+    background-color: orange;
+    margin-top: 113px;
+}
+
+.content-descricao {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-descricao h2 {
+    color: black;
+    margin: 20px 0px 20px 0;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.content-descricao p {
+    color: black;
+    padding: 15px;
+    font-size: 1.15rem;
+    width: 90%;
+}
+
+.redes {
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.nossa-rede {
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 13px 50px;
+    color: orange;
+    background-color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nossa-rede:hover {
+    color: orange;
+    background-color: black;
+}
+
+.numeros {
+    background-color: black;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.178);
+    color: white;
+    padding: 20px;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.content-diferenciais {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.content-pedido {
+    width: 40%;
+    padding: 15px;
+}
+
+.content-pedido h2 {
+    color: orange;
+    margin-bottom: 15px;
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+
+.content-pedido p {
+    color: black;
+    width: 80%;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+.content-pedido a {
+    border-radius: 5px;
+    padding: 15px 50px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: color 0.4s ease, background-color 0.4s ease;
+}
+
+.content-pedido a:hover {
+    background-color: black;
+    color: white;
+}
+
+
