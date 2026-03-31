@@ -203,7 +203,8 @@ body {
 }
 
 .nossa-rede {
-    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.541);
+    border-radius: 10px;
     font-weight: bold;
     padding: 13px 50px;
     color: orange;
@@ -213,6 +214,7 @@ body {
 }
 
 .nossa-rede:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
     color: orange;
     background-color: black;
 }
@@ -257,16 +259,18 @@ body {
 }
 
 .content-pedido a {
-    border-radius: 5px;
-    padding: 15px 50px;
+    border-radius: 10px;
+    padding: 18px 80px;
     background-color: orange;
     color: white;
     text-decoration: none;
     font-weight: bolder;
-    transition: color 0.4s ease, background-color 0.4s ease;
+    transition: 0.4s;
+    box-shadow: 1px 1px 10px rgba(255, 166, 0, 0.705);
 }
 
 .content-pedido a:hover {
+    box-shadow: 1px 1px 10px black;
     background-color: black;
     color: white;
 }
