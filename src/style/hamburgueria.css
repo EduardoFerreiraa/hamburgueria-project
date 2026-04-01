@@ -7,7 +7,7 @@
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.85)), url("../img/cheeseburguer.jpg") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.897)), url("../img/cheeseburguer.jpg") no-repeat;
     background-size: cover;
     background-position: fixed;
     height: 100vh;
@@ -68,10 +68,11 @@ body {
     color: black;
 }
 
-/* MAIN */
+/* ========== SECTION 1 ========== */
 
 .main-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
@@ -80,7 +81,7 @@ body {
 
 .content {
     width: 90%;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 .melhor-lanche h1 {
@@ -127,6 +128,7 @@ body {
 }
 
 .cheese img {
+    z-index: -100;
     filter: brightness(90%);
     width: 35%;
 }
@@ -137,16 +139,221 @@ body {
 }
 
 .action-cardapio a {
+    border-radius: 5px;
     margin: 20px 20px 0 20px;
     padding: 15px 90px;
     background-color: orange;
     color: black;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease, background-color 0.3s ease;
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px rgba(255, 166, 0, 0.61);
 }
 
 .action-cardapio a:hover {
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.61);
     background-color: white;
     color: black;
 }
+
+/* ========== SECTION 2 ========== */
+
+.quem-somos {
+    border-top-left-radius: 10% 10%;
+    border-top-right-radius: 10% 10%;
+    width: 100%;
+    background-color: orange;
+    margin-top: 113px;
+}
+
+.content-descricao {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-descricao h2 {
+    color: black;
+    margin: 20px 0px 20px 0;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.content-descricao p {
+    color: black;
+    padding: 15px;
+    font-size: 1.15rem;
+    width: 90%;
+}
+
+.redes {
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.nossa-rede {
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.541);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 13px 50px;
+    color: orange;
+    background-color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.nossa-rede:hover {
+    transform: scale(1.06);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
+    color: orange;
+    background-color: black;
+}
+
+.numeros {
+    background-color: black;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.178);
+    color: white;
+    padding: 20px;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.content-diferenciais {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.content-pedido {
+    width: 40%;
+    padding: 15px;
+}
+
+.content-pedido h2 {
+    color: orange;
+    margin-bottom: 15px;
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+
+.content-pedido p {
+    color: black;
+    width: 80%;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+.pedir-whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+    padding: 18px 80px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: 0.4s;
+    box-shadow: 1px 1px 10px rgba(255, 166, 0, 0.705);
+}
+
+.pedir-whatsapp:hover {
+    transform: scale(1.06);
+    box-shadow: 1px 1px 10px black;
+    background-color: black;
+    color: white;
+}
+
+/* SECTION 3 */
+
+.content-unidades {
+    padding: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.897)), url("../img/juicy-cheeseburger-fund.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.titulo-unidade {
+    font-size: 2rem;
+    text-align: center;
+    color: orange;
+}
+
+.unidade {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 100px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.item-unidade {
+    box-shadow: 1px 1px 10px rgba(255, 166, 0, 0.603);
+    border-radius: 15px;
+    border: 1px solid orange;
+    padding: 20px;
+    color: white;
+    transition: 0.3s;
+}
+
+.item-unidade:hover {
+    transform: scale(1.05);
+    color: white;
+    background-color: black;
+}
+
+.item-unidade h3 {
+    color: orange;
+    padding: 20px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.item-unidade div {
+    padding: 20px 0 20px 0;
+}
+
+.action-unidade {
+    box-shadow: 1px 1px 10px rgba(255, 166, 0, 0.527);
+    border-radius: 10px;
+    background-color: orange;
+    padding: 12px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+
+.action-unidade:hover {
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.548);
+    background-color: white;
+    color: black;
+}
+
+
+
+
