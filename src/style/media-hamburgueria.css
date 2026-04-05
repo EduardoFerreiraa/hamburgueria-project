@@ -158,7 +158,6 @@
 
     .content-pedido p {
         text-align: center;
-        color: black;
         width: 90%;
         font-size: 1.1rem;
         margin-top: 15px;
@@ -170,11 +169,47 @@
         margin-bottom: 25px;
     }
 
-    .pedir-whatsapp:hover {
-        transform: scale(1.06);
-        box-shadow: 1px 1px 10px black;
-        background-color: black;
-        color: white;
+
+
+
+    /* NOSSAS UNIDADES */
+
+    .content-unidades {
+        padding: 10px;
+        background: linear-gradient(rgba(0, 0, 0, 0.767)), url("../img/bacon-cheeseburger-fund.jpg") no-repeat top center;
+        background-size: cover;
+        background-attachment: fixed;
     }
 
+    .titulo-unidade {
+        margin-top: 35px;
+        font-size: 2rem;
+    }
+
+    .unidade {
+        width: 100%;
+        margin-top: 60px;
+        gap: 30px;
+    }
+
+    .item-unidade {
+        padding: 20px;
+    }
+
+    .item-unidade h3 {
+        padding: 20px;
+        font-size: 1.3rem;
+    }
+
+    .item-unidade div {
+        padding: 40px 0 40px 0;
+    }
+
+    .action-unidade {
+        padding: 12px 20px;
+    }
+
+    /* CARDAPIO */
+
+    
 }

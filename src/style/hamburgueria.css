@@ -9,9 +9,9 @@
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.897)), url("../img/cheeseburguer.jpg") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.753)), url("../img/cheeseburguer.jpg") no-repeat;
     background-size: cover;
-    background-position: fixed;
+    background-attachment: fixed;
     height: 100vh;
     font-family: "Inter", Arial, Helvetica, sans-serif;
 }
@@ -146,7 +146,7 @@ body {
     border-radius: 10px;
     padding: 15px 90px;
     margin: 15px;
-    background-color: orange;
+    background-color: rgb(233, 151, 0);
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -163,10 +163,8 @@ body {
 /* ========== SECTION 2 ========== */
 
 .quem-somos {
-    border-top-left-radius: 10% 10%;
-    border-top-right-radius: 10% 10%;
     width: 100%;
-    background-color: orange;
+    background-color: #e29300;
     margin-top: 113px;
 }
 
@@ -293,8 +291,9 @@ body {
 
 .content-unidades {
     padding: 100px;
-    background: linear-gradient(rgba(0, 0, 0, 0.897)), url("../img/juicy-cheeseburger-fund.jpg") no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.671)), url("../img/juicy-cheeseburger-fund.jpg") no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .titulo-unidade {
@@ -318,7 +317,7 @@ body {
 
 .item-unidade {
     border-radius: 15px;
-    border: 1px solid orange;
+    border: 1px solid white;
     padding: 20px;
     color: white;
     transition: 0.3s;
