@@ -18,8 +18,8 @@ body {
 
 .header-container {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.795);
-    padding: 35px;
+    background-color: rgba(0, 0, 0, 0.877);
+    padding: 28px;
     justify-content: space-around;
     align-items: center;
     display: flex;
@@ -65,6 +65,7 @@ body {
     background-color: orange;
     color: white;
     border: none;
+    transition: 0.5s;
 }
 
 .nav-destaque a:hover {
