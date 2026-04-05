@@ -9,17 +9,17 @@
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.897)), url("../img/cheeseburguer.jpg") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.753)), url("../img/cheeseburguer.jpg") no-repeat;
     background-size: cover;
-    background-position: fixed;
+    background-attachment: fixed;
     height: 100vh;
     font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 .header-container {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.795);
-    padding: 35px;
+    background-color: rgba(0, 0, 0, 0.877);
+    padding: 28px;
     justify-content: space-around;
     align-items: center;
     display: flex;
@@ -65,6 +65,7 @@ body {
     background-color: orange;
     color: white;
     border: none;
+    transition: 0.5s;
 }
 
 .nav-destaque a:hover {
@@ -93,7 +94,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: orange;
 }
 
@@ -111,7 +112,7 @@ body {
     border-radius: 5px;
     margin-top: 20px;
     padding: 25px;
-    border: 1px solid #2e2e2e93;
+    border: 1px solid rgba(255, 255, 255, 0.527);
     text-align: center;
     display: flex;
 }
@@ -137,15 +138,15 @@ body {
 }
 
 .action-cardapio {
-    width: 100%;
     text-align: center;
 }
 
 .action-cardapio a {
-    border-radius: 5px;
-    margin: 20px 20px 0 20px;
+    z-index: -100;
+    border-radius: 10px;
     padding: 15px 90px;
-    background-color: orange;
+    margin: 15px;
+    background-color: rgb(233, 151, 0);
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -162,10 +163,8 @@ body {
 /* ========== SECTION 2 ========== */
 
 .quem-somos {
-    border-top-left-radius: 10% 10%;
-    border-top-right-radius: 10% 10%;
     width: 100%;
-    background-color: orange;
+    background-color: #e29300;
     margin-top: 113px;
 }
 
@@ -292,8 +291,9 @@ body {
 
 .content-unidades {
     padding: 100px;
-    background: linear-gradient(rgba(0, 0, 0, 0.897)), url("../img/juicy-cheeseburger-fund.jpg") no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.671)), url("../img/juicy-cheeseburger-fund.jpg") no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .titulo-unidade {
@@ -316,9 +316,8 @@ body {
 }
 
 .item-unidade {
-    box-shadow: 1px 1px 10px rgba(255, 166, 0, 0.603);
     border-radius: 15px;
-    border: 1px solid orange;
+    border: 1px solid white;
     padding: 20px;
     color: white;
     transition: 0.3s;
@@ -365,7 +364,6 @@ body {
 .cardapio {
     width: 100%;
     background-color: #1A1A1A;
-    height: 100vh;
 }
 
 .text-cardapio {
@@ -408,7 +406,7 @@ body {
 }
 
 .card-cardapio:hover {
-    transform: scale(1.03);
+    box-shadow: 1px 1px 15px rgba(255, 166, 0, 0.432);
 }
 
 .position-titulo-burguer {

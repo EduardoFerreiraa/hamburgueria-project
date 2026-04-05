@@ -1,6 +1,6 @@
 @media (max-width: 600px){
     body {
-        background: linear-gradient(rgba(0, 0 ,0 ,0.85)), url("../img/burguer-fund.jpg") no-repeat center;
+        background: linear-gradient(rgba(0, 0, 0, 0.85)), url("../img/bacon-cheeseburger-fund.jpg") no-repeat top center;
         background-size: cover;
     }
 
@@ -9,11 +9,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 20px;
+        padding: 12px;
     }
 
     .logo a {
-        font-size: 1.5rem;
+        margin: 13px;
+        font-size: 1.3rem;
     }
 
     .nav-links {
@@ -26,7 +27,8 @@
 
     .nav-item a {
         font-size: 0.6rem;
-        padding: 5px;
+        padding: 0px;
+        margin: 5px;
     }
 
     .nav-destaque {
@@ -83,4 +85,157 @@
         padding: 7px 15px;
     }
 
+    /* SECTION 2 */
+    
+    .quem-somos {
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+        width: 100%;
+        background-color: orange;
+        margin-top: 113px;
+    }
+
+    .content-descricao {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-descricao h2 {
+        font-size: 2rem;
+    }
+
+    .content-descricao p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .numeros {
+        font-size: 1.2rem;
+    }
+
+    .redes {
+        padding-bottom: 10px;
+        gap: 15px;
+    }
+
+    .nossa-rede {
+        padding: 8px 16px;
+    }
+
+    .content-diferenciais {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+    }
+
+    .diferencial-img {
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .content-pedido {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .content-pedido h2 {
+        width: 90%;
+        text-align: center;
+        color: orange;
+        margin-bottom: 15px;
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+
+    .content-pedido p {
+        text-align: center;
+        width: 90%;
+        font-size: 1.1rem;
+        margin-top: 15px;
+    }
+
+    .pedir-whatsapp {
+        width: 60%;
+        padding: 10px 20px;
+        margin-bottom: 25px;
+    }
+
+    /* NOSSAS UNIDADES */
+
+    .content-unidades {
+        padding: 10px;
+        background: linear-gradient(rgba(0, 0, 0, 0.767)), url("../img/bacon-cheeseburger-fund.jpg") no-repeat top center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .titulo-unidade {
+        margin-top: 35px;
+        font-size: 2rem;
+    }
+
+    .unidade {
+        width: 100%;
+        margin-top: 60px;
+        gap: 30px;
+    }
+
+    .item-unidade {
+        padding: 20px;
+    }
+
+    .item-unidade h3 {
+        padding: 20px;
+        font-size: 1.3rem;
+    }
+
+    .item-unidade div {
+        padding: 40px 0 40px 0;
+    }
+
+    .action-unidade {
+        padding: 12px 20px;
+    }
+
+    /* CARDAPIO */
+
+    .cardapio {
+        width: 100%;
+    }
+
+    .text-cardapio {
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-cardapio h3 {
+        font-size: 2.4rem;
+        padding: 25px;
+    }
+
+    .content-cardapio {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .card-cardapio {
+        width: 80%;
+        height: 500px;
+        box-shadow: 1px 1px 10px rgba(49, 49, 49, 0.342);
+        margin: 20px;
+        padding: 5px;
+    }
 }
