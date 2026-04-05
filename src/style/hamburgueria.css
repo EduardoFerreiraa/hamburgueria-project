@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -27,6 +29,7 @@ body {
 }
 
 .logo a {
+    font-family: 'Cinzel';
     text-transform: uppercase;
     font-weight: bolder;
     color: orange;
@@ -183,6 +186,7 @@ body {
 }
 
 .content-descricao h2 {
+    font-family: 'Playfair Display', 'Arial';
     color: black;
     margin: 20px 0px 20px 0;
     font-weight: 900;
@@ -191,8 +195,9 @@ body {
 }
 
 .content-descricao p {
+    font-family: 'Arial';
     color: black;
-    padding: 15px;
+    padding: 30px;
     font-size: 1.15rem;
     width: 90%;
 }
@@ -283,7 +288,7 @@ body {
     color: white;
 }
 
-/* SECTION 3 */
+/* ========== SECTION 3 ========== */
 
 .content-unidades {
     padding: 100px;
@@ -292,7 +297,8 @@ body {
 }
 
 .titulo-unidade {
-    font-size: 2rem;
+    font-family: 'Playfair Display', 'Arial';
+    font-size: 3rem;
     text-align: center;
     color: orange;
 }
@@ -354,6 +360,103 @@ body {
     color: black;
 }
 
+/* ========== SECTION 4 ========== */
 
+.cardapio {
+    width: 100%;
+    background-color: #1A1A1A;
+    height: 100vh;
+}
 
+.text-cardapio {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-cardapio h3 {
+    font-weight: bolder;
+    color: white;
+    font-family: 'Playfair Display', 'Arial';
+    font-size: 4rem;
+    padding: 50px;
+}
+
+.content-cardapio {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-cardapio {
+    border: 1px solid orange;
+    width: 20%;
+    height: 525px;
+    box-shadow: 1px 1px 10px rgba(49, 49, 49, 0.342);
+    margin: 25px;
+    padding: 15px;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.card-cardapio:hover {
+    transform: scale(1.03);
+}
+
+.position-titulo-burguer {
+    text-align: center;
+    width: 100%;
+}
+
+.position-titulo-burguer h4 {
+    color: orange;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', 'Arial';
+}
+
+.card-cardapio img {
+    max-width: 80%;
+}
+
+.descricao-card {
+    font-size: 1rem;
+    max-width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.descricao-card p {
+    padding: 15px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 35px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    background-color: orange;
+    padding: 12px 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+    border: 2px solid orange;
+}
+
+.price:hover {
+    color: white;
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.37);
+    transform: scale(1.07);
+}
 
