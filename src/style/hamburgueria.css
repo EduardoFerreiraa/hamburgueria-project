@@ -365,7 +365,6 @@ body {
 .cardapio {
     width: 100%;
     background-color: #1A1A1A;
-    height: 100vh;
 }
 
 .text-cardapio {
@@ -408,7 +407,7 @@ body {
 }
 
 .card-cardapio:hover {
-    transform: scale(1.03);
+    box-shadow: 1px 1px 15px rgba(255, 166, 0, 0.432);
 }
 
 .position-titulo-burguer {
