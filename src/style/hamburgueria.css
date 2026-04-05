@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
 
 * {
@@ -367,7 +364,7 @@ body {
 
 .cardapio {
     width: 100%;
-    background-color: orange;
+    background-color: #1A1A1A;
     height: 100vh;
 }
 
@@ -379,10 +376,49 @@ body {
 }
 
 .text-cardapio h3 {
-    color: black;
+    color: orange;
     font-family: 'Playfair Display', 'Arial';
-    font-size: 3.8rem;
+    font-size: 4rem;
     padding: 50px;
+}
+
+.content-cardapio {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+.card-cardapio {
+    max-width: 50%;
+    box-shadow: 1px 1px 10px rgba(49, 49, 49, 0.342);
+    padding: 25px;
+    margin: 15px;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.card-cardapio:hover {
+    transform: scale(1.03);
+}
+
+.position-titulo-burguer {
+    position: relative;
+    bottom: 50px;
+}
+
+.position-titulo-burguer h4 {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Playfair Display', 'Arial';
+}
+
+.card-cardapio img {
+    max-width: 50%;
 }
 
 
