@@ -1,6 +1,6 @@
 @media (max-width: 600px){
     body {
-        background: linear-gradient(rgba(0, 0, 0, 0.85)), url("../img/burguer-fund.jpg") no-repeat center;
+        background: linear-gradient(rgba(0, 0, 0, 0.85)), url("../img/bacon-cheeseburger-fund.jpg") no-repeat top center;
         background-size: cover;
     }
 
@@ -169,9 +169,6 @@
         margin-bottom: 25px;
     }
 
-
-
-
     /* NOSSAS UNIDADES */
 
     .content-unidades {
@@ -211,5 +208,34 @@
 
     /* CARDAPIO */
 
-    
+    .cardapio {
+        width: 100%;
+    }
+
+    .text-cardapio {
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-cardapio h3 {
+        font-size: 2.4rem;
+        padding: 25px;
+    }
+
+    .content-cardapio {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .card-cardapio {
+        width: 80%;
+        height: 500px;
+        box-shadow: 1px 1px 10px rgba(49, 49, 49, 0.342);
+        margin: 20px;
+        padding: 5px;
+    }
 }
