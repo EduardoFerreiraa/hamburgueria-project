@@ -85,4 +85,96 @@
         padding: 7px 15px;
     }
 
+    /* SECTION 2 */
+    
+    .quem-somos {
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+        width: 100%;
+        background-color: orange;
+        margin-top: 113px;
+    }
+
+    .content-descricao {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-descricao h2 {
+        font-size: 2rem;
+    }
+
+    .content-descricao p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .numeros {
+        font-size: 1.2rem;
+    }
+
+    .redes {
+        padding-bottom: 10px;
+        gap: 15px;
+    }
+
+    .nossa-rede {
+        padding: 8px 16px;
+    }
+
+    .content-diferenciais {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+    }
+
+    .diferencial-img {
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .content-pedido {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .content-pedido h2 {
+        width: 90%;
+        text-align: center;
+        color: orange;
+        margin-bottom: 15px;
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+
+    .content-pedido p {
+        text-align: center;
+        color: black;
+        width: 90%;
+        font-size: 1.1rem;
+        margin-top: 15px;
+    }
+
+    .pedir-whatsapp {
+        width: 60%;
+        padding: 10px 20px;
+        margin-bottom: 25px;
+    }
+
+    .pedir-whatsapp:hover {
+        transform: scale(1.06);
+        box-shadow: 1px 1px 10px black;
+        background-color: black;
+        color: white;
+    }
+
 }
