@@ -150,7 +150,7 @@ body {
     border-radius: 10px;
     padding: 15px 90px;
     margin: 15px;
-    background-color: rgb(233, 151, 0);
+    background-color: orange;
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -168,7 +168,7 @@ body {
 
 .quem-somos {
     width: 100%;
-    background-color: #e29300;
+    background-color: orange;
     margin-top: 113px;
 }
 
@@ -366,6 +366,7 @@ body {
 /* ========== CARDAPIO ========== */
 
 .cardapio {
+    padding: 50px;
     width: 100%;
     background-color: #1A1A1A;
 }
@@ -466,8 +467,7 @@ body {
 /* ========== CONTATO ========== */
 
 .contato {
-    padding: 50px;
-    height: 100vh;
+    padding: 55px;
     width: 100%;
     background-color: orange;
 }
@@ -480,6 +480,7 @@ body {
 }
 
 .content-contato h4 {
+    margin-top: 25px;
     font-size: 4rem;
     color: black;
     padding: 10px;
@@ -519,6 +520,7 @@ body {
 }
 
 .card-contato h4 {
+    font-family: 'Playfair Display', 'Arial';
     font-size: 1.3rem;
     color: orange;
 }
@@ -536,20 +538,72 @@ body {
     text-decoration: none;
     padding: 15px 20px;
     box-shadow: 1px 1px 15px rgba(255, 166, 0, 0.452);
-    transition: 0.5s;
     margin-top: 80px;
+    transition: 0.4s;
 }
 
 .card-contato a:hover {
+    padding: 17px 23px;
     color: black;
     background-color: white;
     box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.507);
 }
 
-.card-contato-img {
-    transition: 0.4s;
+.endereco {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.card-contato-img:hover {
-    transform: scale(1.06);
+.maps {
+    transition: 0.5s;
+    margin-bottom: 70px;
+}
+
+.maps h4 {
+    padding: 15px;
+    font-family: 'Playfair Display', 'Arial';
+    text-align: center;
+    font-size: 2rem;
+}
+
+.maps iframe {
+    border-radius: 12px;
+}
+
+.content-endereco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endereco-burguer {
+    border-radius: 12px;
+    background-color: #262626;
+    box-shadow: 1px 1px 15px #262626;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: 350px;
+    padding: 50px;
+    margin: 70px;
+    transition: 0.3s;
+}
+
+.endereco-burguer:hover {
+    box-shadow: 1px 1px 20px #000000;
+}
+
+.endereco-burguer h4 {
+    font-family: 'Playfair Display', 'Arial';
+    color: orange;
+    text-align: center;
+    font-size: 2rem;
+    padding: 25px;
 }
