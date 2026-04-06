@@ -516,7 +516,7 @@ body {
 }
 
 .card-contato:hover {
-    margin-top: -25px;
+    transform: translateY(-15px);
     box-shadow: 1px 1px 10px #000000;
 }
 
@@ -544,7 +544,6 @@ body {
 }
 
 .card-contato a:hover {
-    padding: 17px 23px;
     color: black;
     background-color: white;
     box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.507);
