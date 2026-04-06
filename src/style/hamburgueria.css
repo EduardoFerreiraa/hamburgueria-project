@@ -607,3 +607,83 @@ body {
     font-size: 2rem;
     padding: 25px;
 }
+
+/* ========== FOOTER ========== */
+
+.footer {
+    background-color: black;
+}
+
+.content-footer {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-footer {
+    width: 80%;
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-itens {
+    border: 1px solid rgb(51, 51, 51);
+    text-align: center;
+    width: 50%;
+    height: 270px;
+    padding: 50px;
+    color: white;
+}
+
+.card-itens h4 {
+    font-family: 'Playfair Display', 'Arial';
+    color: orange;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.card-itens p {
+    color: gray;
+    margin: 13px;
+}
+
+.actions-footer {
+    margin-top: 10px;   
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.actions-footer > a {
+    color: gray;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: gray;
+}
+
+.formulario input {
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white
+}
+
+.direitos {
+    border-top: 0.2px solid rgba(128, 128, 128, 0.466);
+    padding: 25px;
+    text-align: center;
+    width: 100%;
+    color: gray;
+}
