@@ -2,6 +2,7 @@
     body {
         background: linear-gradient(rgba(0, 0, 0, 0.85)), url("../img/bacon-cheeseburger-fund.jpg") no-repeat top center;
         background-size: cover;
+        background-attachment: fixed;
     }
 
     /* ======================= HEADER ======================= */
@@ -347,4 +348,58 @@
         transition: 0.3s;
     }
 
+    /* ======================= FOOTER ======================= */
+
+    .footer {
+        background-color: black;
+    }
+
+    .content-footer {
+        margin: 20px;
+        padding: 25px;
+    }
+
+    .cards-footer {
+        width: 100%;
+        gap: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card-itens {
+        border: 1px solid rgb(51, 51, 51);
+        text-align: center;
+        width: 100%;
+        height: 270px;
+        padding: 50px;
+        color: white;
+    }
+
+    .card-itens h4 {
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+
+    .card-itens p {
+        margin: 13px;
+    }
+
+    .actions-footer {
+        margin-top: 10px;   
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .direitos {
+        border-top: 0.2px solid rgba(128, 128, 128, 0.466);
+        padding: 25px;
+        text-align: center;
+        width: 100%;
+        color: gray;
+    }
 }
