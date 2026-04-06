@@ -8,6 +8,10 @@
     margin: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.753)), url("../img/cheeseburguer.jpg") no-repeat;
     background-size: cover;
@@ -17,6 +21,7 @@ body {
 }
 
 .header-container {
+    z-index: 10;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.877);
     padding: 28px;
@@ -72,7 +77,7 @@ body {
     color: black;
 }
 
-/* ========== SECTION 1 ========== */
+/* ========== INÍCIO ========== */
 
 .main-container {
     display: flex;
@@ -80,7 +85,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 .content {
@@ -146,7 +151,7 @@ body {
     border-radius: 10px;
     padding: 15px 90px;
     margin: 15px;
-    background-color: rgb(233, 151, 0);
+    background-color: orange;
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -160,17 +165,17 @@ body {
     color: black;
 }
 
-/* ========== SECTION 2 ========== */
+/* ========== QUEM SOMOS ========== */
 
 .quem-somos {
     width: 100%;
-    background-color: #e29300;
+    background-color: orange;
     margin-top: 113px;
 }
 
 .content-descricao {
     width: 85%;
-    margin: 0 auto;
+    margin: 50px auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -287,7 +292,7 @@ body {
     color: white;
 }
 
-/* ========== SECTION 3 ========== */
+/* ========== UNIDADES ========== */
 
 .content-unidades {
     padding: 100px;
@@ -324,7 +329,7 @@ body {
 }
 
 .item-unidade:hover {
-    transform: scale(1.05);
+    transform: translateY(-10px);
     color: white;
     background-color: black;
 }
@@ -359,9 +364,10 @@ body {
     color: black;
 }
 
-/* ========== SECTION 4 ========== */
+/* ========== CARDAPIO ========== */
 
 .cardapio {
+    padding: 50px;
     width: 100%;
     background-color: #1A1A1A;
 }
@@ -406,6 +412,7 @@ body {
 }
 
 .card-cardapio:hover {
+    transform: translateY(-10px);
     box-shadow: 1px 1px 15px rgba(255, 166, 0, 0.432);
 }
 
@@ -455,6 +462,148 @@ body {
     color: white;
     border: 2px solid white;
     box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.37);
-    transform: scale(1.07);
+    width: 83%;
 }
 
+/* ========== CONTATO ========== */
+
+.contato {
+    padding: 55px;
+    width: 100%;
+    background-color: orange;
+}
+
+.content-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-contato h4 {
+    margin-top: 25px;
+    font-size: 4rem;
+    color: black;
+    padding: 10px;
+    font-family: 'Playfair Display', 'Arial';
+}
+
+.content-contato p {
+    font-size: 1.1rem;
+}
+
+.contatos {
+    gap: 20px;
+    padding: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-contato {
+    border-radius: 10px;
+    background-color: #262626;
+    box-shadow: 1px 1px 5px #262626;
+    color: white;
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.card-contato:hover {
+    transform: translateY(-15px);
+    box-shadow: 1px 1px 10px #000000;
+}
+
+.card-contato h4 {
+    font-family: 'Playfair Display', 'Arial';
+    font-size: 1.3rem;
+    color: orange;
+}
+
+.card-contato p {
+    margin: 10px;
+}
+
+.card-contato a {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    box-shadow: 1px 1px 15px rgba(255, 166, 0, 0.452);
+    margin-top: 80px;
+    transition: 0.4s;
+}
+
+.card-contato a:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.507);
+}
+
+.endereco {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.maps {
+    transition: 0.5s;
+    margin-bottom: 70px;
+}
+
+.maps h4 {
+    padding: 15px;
+    font-family: 'Playfair Display', 'Arial';
+    text-align: center;
+    font-size: 2rem;
+}
+
+.maps iframe {
+    border-radius: 12px;
+}
+
+.content-endereco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endereco-burguer {
+    border-radius: 12px;
+    background-color: #262626;
+    box-shadow: 1px 1px 15px #262626;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: 350px;
+    padding: 50px;
+    margin: 70px;
+    transition: 0.3s;
+}
+
+.endereco-burguer:hover {
+    box-shadow: 1px 1px 20px #000000;
+}
+
+.endereco-burguer h4 {
+    font-family: 'Playfair Display', 'Arial';
+    color: orange;
+    text-align: center;
+    font-size: 2rem;
+    padding: 25px;
+}
