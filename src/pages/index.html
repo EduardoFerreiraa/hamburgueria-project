@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brabos Burguer</title>
-    <link rel="stylesheet" href="../style/hamburgueria.css">
-    <link rel="stylesheet" href="../style/media-hamburgueria.css">
+    <link rel="stylesheet" href="../style/hamburgueria.css"> <!-- Estilo principal do site -->
+    <link rel="stylesheet" href="../style/media-hamburgueria.css"> <!-- Responsividade - Media -->
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
 </head>
 <body>
 
-    <header class="header-container">
-        <div class="logo">
+    <header class="header-container"> <!-- Header -->
+        <div class="logo"> <!-- Logo do site -->
             <a href="#">Brabos Burguer</a>
         </div>
-        <nav class="nav-links">
-            <ul>
-                <li class="nav-item"><a href="#">Início</a></li>
-                <li class="nav-item"><a href="#">Quem somos</a></li>
-                <li class="nav-item"><a href="#">Unidades</a></li>
-                <li class="nav-item"><a href="#">Cardápio</a></li>
-                <li class="nav-item nav-destaque"><a href="#">Contato</a></li>
+        <nav class="nav-links"> <!-- Navegação -->
+            <ul> <!-- Itens da Navegação -->
+                <li class="nav-item"><a href="#inicio">Início</a></li>
+                <li class="nav-item"><a href="#quem-somos">Quem somos</a></li>
+                <li class="nav-item"><a href="#unidades">Unidades</a></li>
+                <li class="nav-item"><a href="#cardapio">Cardápio</a></li>
+                <li class="nav-item nav-destaque"><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="main-container">
-        <section class="content">
+    <!-- =============================== INÍCIO =============================== -->
+
+    <main id="inicio" class="main-container"> <!-- Main - Conteúdo principal-->
+        <section class="content"> <!-- Section - Início -->
             <div class="melhor-lanche">
                 <h1>Hambúrguer artesanal com entrega rápida em Uberlândia</h1>
-                <p>Estamos aberto: </p>
+                <p>Estamos abertos: </p>
             </div>
             <div class="horarios">
                 <p>Segunda a sexta: 18h às 23h</p>
@@ -37,35 +39,38 @@
                 <p>Domingo: 18h às 00h</p>
             </div>
             <div class="cheese">
-                <img src="../img/cheese.png" alt="CheeseBurguer-1">
-                <img src="../img/cheeseburguer-3.png" alt="Cheeseburguer-3">
-                <img src="../img/cheeseburguer-2.png" alt="CheeseBurguer-2">
+                <img src="../img/cheese.png" alt="CheeseBurguer-1"> <!-- Imagem 1 - Búrguer -->
+                <img src="../img/cheeseburguer-3.png" alt="Cheeseburguer-3"> <!-- Imagem 2 - Búrguer -->
+                <img src="../img/cheeseburguer-2.png" alt="CheeseBurguer-2"> <!-- Imagem 3 - Búrguer -->
             </div>
             <div class="action-cardapio">
-                <a href="#">Ver cardápio</a>
-                <a href="#">Delícias</a>
+                <a href="#cardapio">Ver cardápio</a>
+                <a href="#unidades">Ver unidades</a>
             </div>
         </section>
 
-        <section class="quem-somos">
-                <div class="content-descricao">
+
+        <!-- =============================== QUEM SOMOS =============================== -->
+
+        <section id="quem-somos" class="quem-somos"> <!-- Section - Quem somos -->
+                <div class="content-descricao"> <!-- Conteúdo -->
                     <div class="descricao">
                         <h2>Quem somos?</h2>
                         <p>Somos uma hamburgueria apaixonada por oferecer experiências únicas através de sabores incríveis. Trabalhamos com ingredientes selecionados e preparamos cada lanche com muito cuidado e dedicação. Nosso objetivo é proporcionar momentos especiais para nossos clientes, seja em um lanche rápido ou em um encontro com amigos e família.</p>
                         <p>Aqui, cada detalhe importa — desde o pão macio até o sabor marcante da carne, sempre buscando qualidade e satisfação em cada pedido. Mais do que vender hambúrgueres, queremos fazer parte dos seus melhores momentos.</p>
-                        <div class="redes">
+                        <div class="redes"> <!-- Redes sociais -->
                             <a class="nossa-rede" href="#">Nosso instagram</a>
                             <a class="nossa-rede" href="#">WhatsApp</a>
                         </div>
                     </div>
-                    <img class="diferencial-img" src="../img/cheeseburguerr.png" alt="Cheese">
+                    <img class="diferencial-img" src="../img/cheeseburguerr.png" alt="Cheese"> <!-- Imagem 1 - Búrguer -->
                 </div>
                 <div class="numeros">
                     <p> <strong>+1000</strong> pedidos entregues!</p>
                 </div>
                 <div class="content-diferenciais">
                     <div>
-                        <img class="diferencial-img" src="../img/cheeseburguer-2.png" alt="CheeseBurguer-2">
+                        <img class="diferencial-img" src="../img/cheeseburguer-2.png" alt="CheeseBurguer-2"> <!-- Imagem 2 - Búrguer -->
                     </div>
                     <div class="content-pedido">
                         <h2>O melhor hambúrguer da sua noite</h2>
@@ -75,8 +80,11 @@
                 </div>
         </section>
 
-        <section class="content-unidades">
-            <div class="titulo-unidade">
+
+        <!-- =============================== UNIDADES =============================== -->
+
+        <section id="unidades" class="content-unidades"> <!-- Section - Unidades -->
+            <div class="titulo-unidade"> <!-- Cards das Unidades -->
                 <h3>Nossas unidades</h3>
             </div>
             <div class="unidade">
@@ -145,40 +153,43 @@
             </div>
         </section>
 
-        <section class="cardapio">
+        
+        <!-- =============================== CARDAPIO =============================== -->
+
+        <section id="cardapio" class="cardapio"> <!-- Section - Cardápio -->
             <div class="text-cardapio">
                  <h3>Cardápio</h3>
             </div>
-            <div class="content-cardapio">
+            <div class="content-cardapio"> <!-- Cards do cardápio-->
                 <div class="card-cardapio">
                     <div class="position-titulo-burguer">
-                        <h4>Cheese Brabão</h4>
+                        <h4>CheeseBurguer</h4>
                     </div>
-                    <img src="../img/cheese.png" alt="Cheese Burguer">
+                    <img src="../img/cheese.png" alt="Cheese Burguer 1"> <!-- Imagem 1 - Hambúrguer -->
                     <div class="descricao-card">
                         <p>Pão australiano, blend 180g, queijo cheddar duplo, cebola caramelizada e molho da casa.</p>
                     </div>
-                    <a class="price" href="#">R$39,90</a>
+                    <a class="price" href="#">Pedir porR$39,90</a>
                 </div>
                 <div class="card-cardapio">
                     <div class="position-titulo-burguer">
                         <h4>Cheddar Explosion</h4>
                     </div>
-                    <img src="../img/cheeseburguer-2.png" alt="Cheese Burguer 2">
+                    <img src="../img/cheeseburguer-2.png" alt="Cheese Burguer 2"> <!-- Imagem 2 - Hambúrguer -->
                     <div class="descricao-card">
                         <p>Pão brioche, blend 150g, cheddar cremoso, bacon crocante e cebola roxa.</p>
                     </div>
-                    <a class="price" href="#">R$29,90</a>
+                    <a class="price" href="#">Pedir por R$29,90</a>
                 </div>
                 <div class="card-cardapio">
                     <div class="position-titulo-burguer">
                         <h4>Smoky Cheese</h4>
                     </div>
-                    <img src="../img/cheeseburguer-3.png" alt="Cheese Burguer 3">
+                    <img src="../img/cheeseburguer-3.png" alt="Cheese Burguer 3"> <!-- Imagem 3 - Hambúrguer -->
                     <div class="descricao-card">
                         <p>Pão preto, blend 180g, queijo defumado, barbecue artesanal, cebola crispy e rúcula.</p>
                     </div>
-                    <a class="price" href="#">R$19,90</a>
+                    <a class="price" href="#">Pedir por R$19,90</a>
                 </div>
             </div>
             <div class="content-cardapio">
@@ -186,31 +197,31 @@
                     <div class="position-titulo-burguer">
                         <h4>Cheese Brabão</h4>
                     </div>
-                    <img src="../img/cheeseburguerr.png" alt="Cheese Burguer">
+                    <img src="../img/cheeseburguerr.png" alt="Cheese Burguer 4"> <!-- Imagem 4 - Hambúrguer -->
                     <div class="descricao-card">
                         <p>Pão australiano, blend 180g, queijo cheddar duplo, cebola caramelizada e molho da casa.</p>
                     </div>
-                    <a class="price" href="#">R$39,90</a>
+                    <a class="price" href="#">Pedir por R$39,90</a>
                 </div>
                 <div class="card-cardapio">
                     <div class="position-titulo-burguer">
                         <h4>Cheddar Explosion</h4>
                     </div>
-                    <img src="../img/cheese.png" alt="Cheese Burguer 2">
+                    <img src="../img/cheese.png" alt="Cheese Burguer 5"> <!-- Imagem 5 - Hambúrguer -->
                     <div class="descricao-card">
                         <p>Pão brioche, blend 150g, cheddar cremoso, bacon crocante e cebola roxa.</p>
                     </div>
-                    <a class="price" href="#">R$29,90</a>
+                    <a class="price" href="#">Pedir por R$29,90</a>
                 </div>
                 <div class="card-cardapio">
                     <div class="position-titulo-burguer">
                         <h4>Smoky Cheese</h4>
                     </div>
-                    <img src="../img/cheeseburguer-3.png" alt="Cheese Burguer 3">
+                    <img src="../img/cheeseburguer-3.png" alt="Cheese Burguer 5"> <!-- Imagem 6 - Hambúrguer -->
                     <div class="descricao-card">
                         <p>Pão preto, blend 180g, queijo defumado, barbecue artesanal, cebola crispy e rúcula.</p>
                     </div>
-                    <a class="price" href="#">R$19,90</a>
+                    <a class="price" href="#">Pedir por R$19,90</a>
                 </div>
             </div>
             <div class="content-cardapio">
@@ -218,31 +229,77 @@
                     <div class="position-titulo-burguer">
                         <h4>Cheese Brabão</h4>
                     </div>
-                    <img src="../img/cheese.png" alt="Cheese Burguer">
+                    <img src="../img/cheese.png" alt="Cheese Burguer 6"> <!-- Imagem 7 - Hambúrguer -->
                     <div class="descricao-card">
                         <p>Pão australiano, blend 180g, queijo cheddar duplo, cebola caramelizada e molho da casa.</p>
                     </div>
-                    <a class="price" href="#">R$39,90</a>
+                    <a class="price" href="#">Pedir por R$39,90</a>
                 </div>
                 <div class="card-cardapio">
                     <div class="position-titulo-burguer">
                         <h4>Cheddar Explosion</h4>
                     </div>
-                    <img src="../img/cheeseburguer-2.png" alt="Cheese Burguer 2">
+                    <img src="../img/cheeseburguer-2.png" alt="Cheese Burguer 7"> <!-- Imagem 8 - Hambúrguer -->
                     <div class="descricao-card">
                         <p>Pão brioche, blend 150g, cheddar cremoso, bacon crocante e cebola roxa.</p>
                     </div>
-                    <a class="price" href="#">R$29,90</a>
+                    <a class="price" href="#">Pedir por R$29,90</a>
                 </div>
                 <div class="card-cardapio">
                     <div class="position-titulo-burguer">
                         <h4>Smoky Cheese</h4>
                     </div>
-                    <img src="../img/cheeseburguerr.png" alt="Cheese Burguer 3">
+                    <img src="../img/cheeseburguerr.png" alt="Cheese Burguer 8"> <!-- Imagem 9 - Hambúrguer -->
                     <div class="descricao-card">
                         <p>Pão preto, blend 180g, queijo defumado, barbecue artesanal, cebola crispy e rúcula.</p>
                     </div>
-                    <a class="price" href="#">R$19,90</a>
+                    <a class="price" href="#">Pedir por R$19,90</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =============================== CONTATO =============================== -->
+
+        <section id="contato" class="contato"> <!--Section - Contato-->
+            <div class="content-contato">
+                <h4>Contato</h4>
+                <p>Escolha a melhor forma de falar conosco!</p>
+            </div>
+            <div class="contatos"> <!-- Cards dos contatos -->
+                <div class="card-contato">
+                    <h4>WhatsApp</h4>
+                    <p>(11) 98888-7777</p>
+                    <a href="#">Chamar pelo WhatsApp</a>
+                </div>
+                <div class="card-contato">
+                    <h4>Telefone</h4>
+                    <p>(11) 98888-7777</p>
+                    <a href="#">Chamar pelo telefone</a>
+                </div>
+                <div class="card-contato-img">
+                    <img src="../img/cheeseburguerr.png" alt="Hambúrguer">
+                </div>
+                <div class="card-contato">
+                    <h4>Email</h4>
+                    <p>brabosburguer@gmail.com</p>
+                    <a href="#">Chamar pelo email</a>
+                </div>
+                <div class="card-contato">
+                    <h4>Horário</h4>
+                    <p>Segunda a Sexta: 11h-23h</p>
+                </div>
+            </div>
+            <div class="endereco"> <!-- Localização do Google Maps - Utilizando IFRAME -->
+                <div class="content-endereco">
+                    <div class="maps">
+                        <h4>Localização</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4698.208996926999!2d-48.24342442394835!3d-18.918397282254066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a44fb84255dba3%3A0x78cdd34071b35017!2sBrabo&#39;s%20Burguer!5e1!3m2!1spt-BR!2sbr!4v1775452504416!5m2!1spt-BR!2sbr" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="endereco-burguer">
+                        <h4>Endereço</h4>
+                        <p>Av. Belarmino Cotta Pacheco, 1941 - Loja 02 - Santa Mônica, Uberlândia - MG, 38408-168</p>
+                    </div>
                 </div>
             </div>
         </section>

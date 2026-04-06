@@ -4,6 +4,8 @@
         background-size: cover;
     }
 
+    /* ======================= HEADER ======================= */
+
     .header-container {
         display: flex;
         flex-direction: column;
@@ -85,7 +87,8 @@
         padding: 7px 15px;
     }
 
-    /* SECTION 2 */
+
+    /* ======================= QUEM SOMOS ======================= */
     
     .quem-somos {
         border-top-left-radius: 0%;
@@ -169,7 +172,8 @@
         margin-bottom: 25px;
     }
 
-    /* NOSSAS UNIDADES */
+
+    /* ======================= NOSSAS UNIDADES ======================= */
 
     .content-unidades {
         padding: 10px;
@@ -206,14 +210,14 @@
         padding: 12px 20px;
     }
 
-    /* CARDAPIO */
+    /* ======================= CARDÁPIO ======================= */
 
     .cardapio {
         width: 100%;
     }
 
     .text-cardapio {
-        padding: 40px;
+        padding: 60px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -232,10 +236,115 @@
     }
 
     .card-cardapio {
-        width: 80%;
+        margin: 20px auto;
+        width: 100%;
         height: 500px;
         box-shadow: 1px 1px 10px rgba(49, 49, 49, 0.342);
-        margin: 20px;
         padding: 5px;
     }
+
+    /* ======================= CONTATO ======================= */
+
+    .contato {
+        padding: 55px;
+        width: 100%;
+    }
+
+    .content-contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-contato h4 {
+        font-size: 2.7rem;
+    }
+
+    .content-contato p {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .contatos {
+        margin-top: 50px;
+        gap: 30px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card-contato {
+        color: white;
+        width: 100%;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-contato-img img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card-contato:hover {
+        transform: translateY(0);
+    }
+
+    .card-contato h4 {
+        font-size: 1.5rem;
+    }
+
+    .card-contato p {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .endereco {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .maps {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .maps h4 {
+        padding: 15px;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .maps iframe {
+        width: 80%;
+    }
+
+    .content-endereco {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .endereco-burguer {
+        width: 80%;
+        height: 350px;
+        margin: 0 70px 0 70px;
+        transition: 0.3s;
+    }
+
 }
