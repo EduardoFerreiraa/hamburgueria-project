@@ -21,6 +21,7 @@ body {
 }
 
 .header-container {
+    z-index: 10;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.877);
     padding: 28px;
@@ -328,7 +329,7 @@ body {
 }
 
 .item-unidade:hover {
-    margin-top: -15px;
+    transform: translateY(-10px);
     color: white;
     background-color: black;
 }
@@ -411,7 +412,7 @@ body {
 }
 
 .card-cardapio:hover {
-    margin-top: -3px;
+    transform: translateY(-10px);
     box-shadow: 1px 1px 15px rgba(255, 166, 0, 0.432);
 }
 
