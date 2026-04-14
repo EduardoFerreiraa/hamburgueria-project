@@ -114,16 +114,17 @@ body {
 .horarios {
     margin: 0 auto;
     width: 80%;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-top: 20px;
     padding: 25px;
-    border: 1px solid rgba(255, 255, 255, 0.527);
+    background: linear-gradient(rgba(255, 153, 0, 0.089), rgba(255, 166, 0, 0.158));
+    border: 1px solid rgb(255, 153, 0);
     text-align: center;
     display: flex;
 }
 
 .horarios p {
-    font-weight: bold;
+    font-weight: bolder;
     text-transform: uppercase;
     margin: 0 auto;
     color: white;
@@ -151,17 +152,19 @@ body {
     border-radius: 10px;
     padding: 15px 90px;
     margin: 15px;
-    background-color: orange;
-    color: black;
+    background: linear-gradient(#ff99001e, #c07d0050);
+    border: 1px solid orange;
+    box-shadow: 1px 1px 15px rgba(255, 166, 0, 0.349);
+    color: white;
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
-    box-shadow: 1px 1px 10px rgba(255, 166, 0, 0.61);
 }
 
 .action-cardapio a:hover {
-    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.61);
-    background-color: white;
+    box-shadow: 1px 1px 15px rgba(255, 166, 0, 0.664);
+    background-color: orange;
+    border: 1px solid rgba(255, 255, 255, 0);
     color: black;
 }
 
@@ -214,21 +217,22 @@ body {
 }
 
 .nossa-rede {
-    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.541);
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.404);
     border-radius: 10px;
     font-weight: bold;
     padding: 13px 50px;
-    color: orange;
-    background-color: white;
+    color: white;
+    background: linear-gradient(rgba(255, 255, 255, 0.219), #ffffff57);
+    border: 1px solid white;
     text-decoration: none;
     transition: 0.4s;
 }
 
 .nossa-rede:hover {
-    transform: scale(1.06);
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
+    transform: translateY(-10px);
     color: orange;
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.87);
+    border: 1px solid white;
 }
 
 .numeros {
@@ -274,21 +278,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 80%;
     border-radius: 10px;
-    padding: 18px 80px;
-    background-color: orange;
-    color: white;
+    padding: 18px 30px;
+    border: 1px solid orange;
+    box-shadow: 1px 1px 15px rgba(255, 166, 0, 0.418);
+    color: orange;
     text-decoration: none;
     font-weight: bolder;
     transition: 0.4s;
-    box-shadow: 1px 1px 10px rgba(255, 166, 0, 0.705);
 }
 
 .pedir-whatsapp:hover {
-    transform: scale(1.06);
-    box-shadow: 1px 1px 10px black;
-    background-color: black;
+    transform: translateY(-13px);
+    box-shadow: 1px 1px 15px orange;
+    background-color: orange;
+    border: 1px solid orange;
     color: white;
 }
 
@@ -312,7 +317,7 @@ body {
     margin: 0 auto;
     width: 80%;
     margin-top: 100px;
-    padding: 40px;
+    padding: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -325,13 +330,14 @@ body {
     border: 1px solid white;
     padding: 20px;
     color: white;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .item-unidade:hover {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
     color: white;
-    background-color: black;
+    border: 1px solid orange;
+    box-shadow: 1px 1px 15px rgba(255, 166, 0, 0.521);
 }
 
 .item-unidade h3 {
@@ -359,6 +365,7 @@ body {
 }
 
 .action-unidade:hover {
+    transform: translateY(-5px);
     box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.548);
     background-color: white;
     color: black;
@@ -373,7 +380,6 @@ body {
 }
 
 .text-cardapio {
-    padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -388,17 +394,18 @@ body {
 }
 
 .content-cardapio {
+    padding: 20px;
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 15px;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .card-cardapio {
     border: 1px solid orange;
-    width: 20%;
-    height: 525px;
+    width: 400px;
+    height: 550px;
     box-shadow: 1px 1px 10px rgba(49, 49, 49, 0.342);
     margin: 25px;
     padding: 15px;
@@ -413,7 +420,8 @@ body {
 
 .card-cardapio:hover {
     transform: translateY(-10px);
-    box-shadow: 1px 1px 15px rgba(255, 166, 0, 0.432);
+    border: 1px solid white;
+    box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.384);
 }
 
 .position-titulo-burguer {
@@ -462,7 +470,7 @@ body {
     color: white;
     border: 2px solid white;
     box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.37);
-    width: 83%;
+    transform: translateY(-10px);
 }
 
 /* ========== CONTATO ========== */
@@ -501,10 +509,10 @@ body {
 }
 
 .card-contato {
-    border-radius: 10px;
-    background-color: #262626;
-    box-shadow: 1px 1px 5px #262626;
+    border-radius: 15px;
+    background: linear-gradient(rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.911), black);
     color: white;
+    border: 2px solid orange;
     width: 100%;
     height: 300px;
     padding: 15px;
@@ -516,8 +524,8 @@ body {
 }
 
 .card-contato:hover {
+    border: 2px solid white;
     transform: translateY(-15px);
-    box-shadow: 1px 1px 10px #000000;
 }
 
 .card-contato h4 {
@@ -537,7 +545,7 @@ body {
     background-color: orange;
     color: white;
     text-decoration: none;
-    padding: 15px 20px;
+    padding: 15px 10px;
     box-shadow: 1px 1px 15px rgba(255, 166, 0, 0.452);
     margin-top: 80px;
     transition: 0.4s;
@@ -570,7 +578,12 @@ body {
 }
 
 .maps iframe {
-    border-radius: 12px;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.maps > iframe:hover {
+    transform: translateY(-15px);
 }
 
 .content-endereco {
@@ -580,9 +593,9 @@ body {
 }
 
 .endereco-burguer {
-    border-radius: 12px;
-    background-color: #262626;
-    box-shadow: 1px 1px 15px #262626;
+    border: 2px solid orange;
+    border-radius: 15px;
+    background: linear-gradient(rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.911), black);
     color: white;
     display: flex;
     flex-direction: column;
@@ -597,7 +610,8 @@ body {
 }
 
 .endereco-burguer:hover {
-    box-shadow: 1px 1px 20px #000000;
+    border: 2px solid white;
+    transform: translateY(-15px);
 }
 
 .endereco-burguer h4 {

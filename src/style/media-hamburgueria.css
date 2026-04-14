@@ -294,10 +294,6 @@
         width: 100%;
     }
 
-    .card-contato:hover {
-        transform: translateY(0);
-    }
-
     .card-contato h4 {
         font-size: 1.5rem;
     }
