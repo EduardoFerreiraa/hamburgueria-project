@@ -7,6 +7,7 @@ Este site é um projeto para prática. Meu primeiro site de comida
 
 ## Apliquei muito:
 - Display-Flex
+- Transition
 - Pseudo-elementos (:hover)
 - Cores atrativas
 - Media Queries (responsividade)
@@ -16,5 +17,12 @@ Este site é um projeto para prática. Meu primeiro site de comida
 - Links
 - Cards que chamam a atenção
 
-## Site GitHub Pages:
+## Utilizei:
+- Git para versionamento
+- Criei branchs como: feature/header, feature/main, feature/footer, develop e main
+- Pastas organizadas
+- Comentei em alguns códigos para melhor entendimento
+- Separei a Media Queries do CSS principal para melhor organização de código
+
+## GitHub Pages:
 https://eduardoferreiraa.github.io/hamburgueria-project/src/pages/index.html
