@@ -630,7 +630,6 @@ body {
 }
 
 .card-itens {
-    border: 1px solid rgb(51, 51, 51);
     text-align: center;
     width: 50%;
     height: 270px;
@@ -660,6 +659,7 @@ body {
 }
 
 .actions-footer > a {
+    text-decoration: none;
     color: gray;
 }
 
