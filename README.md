@@ -16,3 +16,5 @@ Este site é um projeto para prática. Meu primeiro site de comida
 - Links
 - Cards que chamam a atenção
 
+## Site GitHub Pages:
+https://eduardoferreiraa.github.io/hamburgueria-project/src/pages/index.html
