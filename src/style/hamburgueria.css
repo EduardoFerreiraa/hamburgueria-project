@@ -622,6 +622,26 @@ body {
     padding: 25px;
 }
 
+/* ========== WHATSAPP ========== */
+
+.icon {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.icon img {
+    width: 150px;
+    transition: 0.4s;
+}
+
+.icon img:hover {
+    border: 1px solid orange;
+    box-shadow: 1px 1px 15px rgba(255, 166, 0, 0.425);
+    transform: translateY(-20px);
+}
+
 /* ========== FOOTER ========== */
 
 .footer {
