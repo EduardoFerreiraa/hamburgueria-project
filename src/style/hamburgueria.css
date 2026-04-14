@@ -23,8 +23,8 @@ body {
 .header-container {
     z-index: 10;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.877);
-    padding: 28px;
+    background: linear-gradient(#141414, #000000);
+    padding: 25px;
     justify-content: space-around;
     align-items: center;
     display: flex;
