@@ -7,7 +7,7 @@ Este site é um projeto para prática. Meu primeiro site de comida
 
 ## Apliquei muito:
 - Display-Flex
-- Transition
+- Transition e TranslateY
 - Pseudo-elementos (:hover)
 - Cores atrativas
 - Media Queries (responsividade)
