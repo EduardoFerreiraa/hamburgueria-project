@@ -24,5 +24,13 @@ Este site é um projeto para prática. Meu primeiro site de comida
 - Comentei em alguns códigos para melhor entendimento
 - Separei a Media Queries do CSS principal para melhor organização de código
 
+## Seções criadas:
+- Início
+- Quem somos
+- Unidades
+- Cardápio
+- Contato
+- Footer
+
 ## GitHub Pages:
 https://eduardoferreiraa.github.io/hamburgueria-project/src/pages/index.html
