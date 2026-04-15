@@ -1,4 +1,5 @@
 @media (max-width: 600px){
+    
     body {
         background: linear-gradient(rgba(0, 0, 0, 0.85)), url("../img/bacon-cheeseburger-fund.jpg") no-repeat top center;
         background-size: cover;
@@ -340,7 +341,7 @@
     .endereco-burguer {
         width: 80%;
         height: 350px;
-        margin: 0 70px 0 70px;
+        margin: 20px;
         transition: 0.3s;
     }
 
