@@ -340,7 +340,7 @@
     .endereco-burguer {
         width: 80%;
         height: 350px;
-        margin: 0 70px 0 70px;
+        margin: 22px;
         transition: 0.3s;
     }
 
